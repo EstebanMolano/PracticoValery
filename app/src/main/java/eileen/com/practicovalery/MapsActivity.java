@@ -152,6 +152,11 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 public void onLocationChanged(Location location) {
                     Log.e(">>>", "LAT: " + location.getLatitude() + " , LONG: " + location.getLongitude());
 
+
+
+
+
+                    
                     if (me != null) {
                         me.remove();
                     }
